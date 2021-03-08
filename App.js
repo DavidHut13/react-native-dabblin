@@ -12,7 +12,7 @@ export default function App() {
 
   const addGoalHandler = () => {
     setCourseGoals([...courseGoals, enteredGoal]);
-    setEnteredGoal('');
+    setEnteredGoal(''):
   }
 
   return (
